@@ -1,0 +1,13 @@
+// @ts-check
+import reactPlugin from 'vite-plugin-react'
+
+/**
+ * @type { import('vite').UserConfig }
+ */
+const config = {
+  jsx: 'react',
+  base: '/timbu-cloud-store/',
+  plugins: [reactPlugin],
+}
+
+export default config
