@@ -10,12 +10,10 @@ import product9 from "../images/products/pro9.png";
 import product10 from "../images/products/pro10.png";
 import product11 from "../images/products/pro11.png";
 import product12 from "../images/products/pro12.png";
-import Category from "../../UI/category/category";
 
 export const products = [
   {
     id: 1,
-    category: 'fruit',
     name: 'Avocado Mega',
     price: '3.00',
     image: product1,
@@ -23,7 +21,6 @@ export const products = [
   },
   {
     id: 2,
-    category: 'vegetable',
     name: 'Broccolli',
     price: '20.99',
     image: product2,
@@ -31,7 +28,6 @@ export const products = [
   },
   {
     id: 3,
-    category: 'vegetable',
     name: 'Chicken salad',
     price: '20.00',
     image: product3,
@@ -40,14 +36,12 @@ export const products = [
   {
     id: 4,
     name: 'Vegie combo',
-    category: 'vegetable',
     price: '20.99',
     image: product4,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
   },
   {
     id: 5,
-    category: 'vegetable',
     name: 'Avocado salad',
     price: '15.99',
     image: product5,
@@ -56,7 +50,6 @@ export const products = [
   {
     id: 6,
     name: 'Kiwi fruit',
-    category: 'fruit',
     price: '5.99',
     image: product6,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
@@ -64,7 +57,6 @@ export const products = [
   {
     id: 7,
     name: 'Galic & onion',
-    category: 'vegetable',
     price: '3.00',
     image: product7,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
@@ -72,7 +64,6 @@ export const products = [
   {
     id: 8,
     name: 'Avocado mini',
-    category: 'fruit',
     price: '2.00',
     image: product8,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
@@ -80,7 +71,6 @@ export const products = [
   {
     id: 9,
     name: 'Tomatoes',
-    category: 'vegetable',
     price: '2.00',
     image: product9,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
@@ -88,16 +78,13 @@ export const products = [
   {
     id: 10,
     name: 'Chicken salad',
-    category: 'soup',
-    price: '30',
+    price: '30.00',
     image: product10,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
   },
   {
     id: 11,
-    category: 'soup',
     name: 'Chicken kabab',
-    category: 'soup',
     price: '10.00',
     image: product11,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
@@ -105,7 +92,6 @@ export const products = [
   {
     id: 12,
     name: 'Strawberry',
-    category: 'fruit',
     price: '10.00',
     image: product12,
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis magni qui impedit aspernatur debitis quia ex nemo similique eveniet dicta, quae optio tempore. Quam dicta commodi rem blanditiis, quaerat error.",
