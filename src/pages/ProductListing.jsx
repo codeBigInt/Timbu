@@ -3,9 +3,9 @@ import styles from "./CSS/productListing.module.css";
 import SearchBar from "../UI/search/SearchBar";
 import { mediaContext } from "../context/mediaContext";
 import { categories } from "../assets/arrays/categoriesArray";
-import Category from "../UI/category/category";
 import Nav from "../components/Nav";
 import ProductArea from "../components/ProductArea";
+import Category from "../UI/category/Category";
 
 
 const ProductListing = () => {
